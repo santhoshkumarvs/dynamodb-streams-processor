@@ -3,7 +3,7 @@ set -ex
 
 #----- Change these parameters to suit your environment -----#
 AWS_PROFILE="default"
-BUCKET_NAME="sam-templates-011" # bucket must exist in the SAME region the deployment is taking place
+BUCKET_NAME="sam-template-007" # bucket must exist in the SAME region the deployment is taking place
 SERVICE_NAME="dynamodb-stream-processor"
 TEMPLATE_NAME="${SERVICE_NAME}.yaml"
 STACK_NAME="${SERVICE_NAME}"
